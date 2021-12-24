@@ -1,0 +1,135 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+  body {
+   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url("bg1.jpg");
+   background-size: cover;
+   height: auto;
+   background-repeat: no-repeat;
+}
+
+.navbar{
+  background-color: rgba(8, 8, 8, 0.774);
+}
+.navitems{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width:100%;
+}
+
+h2{
+  color: #fff;
+  padding:15px;
+  margin:30px 150px;
+  font-weight: 800;
+  font-size:3rem;
+}
+
+.mar{
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-family:cursive;
+  color: antiquewhite;
+}
+
+.navitems button {
+  width: 20%;
+  height: 6vh;
+  border: 2px solid rgb(41, 40, 40);
+  font-size: 25px;
+  margin: 0px auto;
+  color:#ff5733 ;
+  position: relative;
+  left:300px;
+}
+.fetchbtn:hover {
+  color: rgb(19, 6, 6);
+  transform: scale(1.2);
+  transition: transform  1.5s;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: black;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ava:hover {
+  color: #ff5733;
+  font-size: large;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.name:hover {
+  color:#ff5733;
+}
+.email:hover{
+  color: rgb(255, 136, 0);
+  font-size:1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.avatar {
+  border: 2px solid black;
+  border-left-color: black;
+  border-right-color: black;
+  border-left-style: ridge;
+  height:23vh;
+  border-radius: 20px;
+}
+.profile_cont {
+  width: 26%;
+  text-align: center;
+  transition: transform ease-in-out 0.5s;
+  opacity: 5;
+  padding : 10px 10px;
+  margin-top: 25PX;
+  margin-bottom: 20PX;
+  border-radius: 20pX;
+  background-color: rgba(24, 26, 26, 0.466);
+  box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.031),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
+  100px 100px 80px rgba(0, 0, 0, 0.09);
+}
+
+.profile_cont:hover {
+  color: #fff;
+  transform: scale(1.15);
+  opacity: 2;
+}
+
+.button {
+  font-size: large;
+  font-style: italic;
+}
+
+.footer{
+  height:7vh;
+  background-color: rgba(77, 75, 75, 0.425);
+  color:white;
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  font-size: 20px;
+  width:30%;
+  position:relative;
+  bottom:50vh;
+  margin-top: 65vh;
+  border-radius: 20px;
+}
+
+.ape{
+  margin: auto;
+}
